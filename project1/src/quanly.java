@@ -26,5 +26,6 @@ class quanly extends donhang {
         System.out.println("hinh thuc van chuyen "+ hinhthucvc(number));
         System.out.println("tien van chuyen "+ tienvanchuyen());
         System.out.println("don hang duoc xuat trong thang "+ this.thang);
+        System.out.println("==========");
     }
 }

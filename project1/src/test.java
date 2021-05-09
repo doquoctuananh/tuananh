@@ -97,7 +97,7 @@ class test extends quanly{
                     System.out.println("don hang ban muon tim la  ");
                     kh.xuat();
                     timkiem = true;
-                    break;
+
                 }
             }
             if (timkiem == false) {

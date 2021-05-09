@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 class donhang {
@@ -11,17 +12,19 @@ class donhang {
     protected String hinhthucvanchuyen;
     protected int thang;
     Scanner nhap = new Scanner(System.in);
+    private JPanel donhang;
 
     public donhang() {
     }
 
-    public donhang(String nguoinhan, String nguoigui, String diachi, double khoangcach,double id,double cannang) {
+    public donhang(String nguoinhan, String nguoigui, String diachi, double khoangcach,double id,double cannang,int thang) {
         this.nguoinhan = nguoinhan;
         this.nguoigui = nguoigui;
         this.diachi = diachi;
         this.khoangcach = khoangcach;
         this.id= id;
         this.cannang=cannang;
+        this.thang=thang;
     }
 
     public int getThang() {
